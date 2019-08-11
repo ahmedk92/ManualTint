@@ -12,6 +12,8 @@
 		28C50BB423001A2A000A60E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C50BB223001A2A000A60E1 /* Main.storyboard */; };
 		28C50BB623001A2B000A60E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C50BB523001A2B000A60E1 /* Assets.xcassets */; };
 		28C50BB923001A2B000A60E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C50BB723001A2B000A60E1 /* LaunchScreen.storyboard */; };
+		28C50BC323001A72000A60E1 /* UIImage+Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C50BC223001A72000A60E1 /* UIImage+Tint.swift */; };
+		28C50BC723004286000A60E1 /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = 28C50BC623004286000A60E1 /* text.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		28C50BB523001A2B000A60E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28C50BB823001A2B000A60E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28C50BBA23001A2B000A60E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C50BC223001A72000A60E1 /* UIImage+Tint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Tint.swift"; sourceTree = "<group>"; };
+		28C50BC623004286000A60E1 /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		28C50BAD23001A2A000A60E1 /* ManualTint */ = {
 			isa = PBXGroup;
 			children = (
+				28C50BC623004286000A60E1 /* text.png */,
 				28C50BAE23001A2A000A60E1 /* AppDelegate.swift */,
 				28C50BB023001A2A000A60E1 /* ViewController.swift */,
 				28C50BB223001A2A000A60E1 /* Main.storyboard */,
 				28C50BB523001A2B000A60E1 /* Assets.xcassets */,
 				28C50BB723001A2B000A60E1 /* LaunchScreen.storyboard */,
 				28C50BBA23001A2B000A60E1 /* Info.plist */,
+				28C50BC223001A72000A60E1 /* UIImage+Tint.swift */,
 			);
 			path = ManualTint;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C50BC723004286000A60E1 /* text.png in Resources */,
 				28C50BB923001A2B000A60E1 /* LaunchScreen.storyboard in Resources */,
 				28C50BB623001A2B000A60E1 /* Assets.xcassets in Resources */,
 				28C50BB423001A2A000A60E1 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			files = (
 				28C50BB123001A2A000A60E1 /* ViewController.swift in Sources */,
 				28C50BAF23001A2A000A60E1 /* AppDelegate.swift in Sources */,
+				28C50BC323001A72000A60E1 /* UIImage+Tint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
